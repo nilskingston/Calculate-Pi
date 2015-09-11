@@ -1,7 +1,7 @@
 """
 calculatepi.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Nils Kingston
+Credit: Roger
 Assignment:
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
@@ -21,3 +21,10 @@ The approximate value of pi is 3.1315929
 Note: remember that the printed value of pi will be an estimate!
 
 """
+print("I will estimate pi")
+terms = int(input("How many terms should I use? "))
+decimal = int(input("How many decimal places should I use in the result?" ))
+
+p = 1.0/sum([((-1.0)**k)
+
+print("The approximate value of pi is ")
